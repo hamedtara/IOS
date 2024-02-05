@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+
+target 'FlowerLens' do
+  use_frameworks!
+
+  # Pods for FlowerLens
+  pod 'Alamofire' # This will fetch the latest version compatible with your platform
+  pod 'SwiftyJSON' # This will fetch the latest version of SwiftyJSON
+end
